@@ -461,9 +461,11 @@ section {
     width: 90%;
   }
   .about-container {
+    grid-template-columns: repeat(1, 1fr);
     grid-template-columns: 1fr;
   }
   .about-container .right-about {
+    grid-template-columns: repeat(1, 1fr);
     padding-top: 2.5rem;
   }
   .about-container .left-about {
