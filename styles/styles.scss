@@ -36,11 +36,11 @@ a{
     color: inherit;
     font-family: inherit;
 }
-
 header{
-    height: 100vh;
+    min-height: 100vh;
+    font-family: 'Popins', sans-serif;
     color: var(--color-white);
-    overflow: hidden;
+    
 }
 
 
@@ -189,7 +189,7 @@ section{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-right: 18rem;
+        padding-right: 10rem;
 
         .name{
             font-size: 3rem;
@@ -351,3 +351,6 @@ section{
         transform: translateX(-50%);
     }
 }
+
+
+@import './media';
